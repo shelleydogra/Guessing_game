@@ -1,1 +1,23 @@
-/target
+# Ignore build output
+/target/
+
+# Ignore temporary files
+**/*.rs.bk
+
+# IDE/editor settings
+.idea/
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cargo files you don't want to track
+Cargo.lock 
+# only for libraries (keep it for binaries)
+
+# Ignore login and user-generated data
+logins.txt
+users.txt
+scores.txt
